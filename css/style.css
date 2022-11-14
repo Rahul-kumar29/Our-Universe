@@ -1,0 +1,53 @@
+html, body{
+    margin:0;
+    height: 100%;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+.img1{
+    background-image: url(/img/1.jpg);
+    min-height: 100%;
+}
+.img2{
+    background-image: url(/img/2.jpg);
+    min-height: 400px;
+}
+.img3{
+    background-image: url(/img/3.png);
+    min-height: 400px;
+}
+.img1, .img2, .img3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+.textbg{
+    background-color:black;
+    color:aliceblue;
+    padding: 20px;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:antiquewhite;
+    
+}
+.section-dark{
+    background-color: rgb(53, 37, 37);
+    color:antiquewhite;
+}
